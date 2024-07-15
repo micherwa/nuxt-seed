@@ -1,0 +1,32 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": ["@nuxt/eslint-config"],
+    "overrides": [],
+    "parserOptions": {
+        "parser": "latest",
+        "sourceType": "module"
+    },
+    "plugins": ["vue"],
+    "rules": {
+        "indent": ["warn", 4, { "SwitchCase": 1 }],
+        "quotes": ["error", "single"],
+        "eqeqeq": ["warn", "allow-null"],
+        "semi": ["error", "always"],
+        "no-inline-comments": "error",
+        "one-var": "off",
+        "comma-dangle": "off",
+        "space-before-function-paren": [
+            "error",
+            {
+                "anonymous": "always",
+                "named": "always",
+                "asyncArrow": "always"
+            }
+        ]
+    }
+}
