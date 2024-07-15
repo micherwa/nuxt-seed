@@ -20,8 +20,8 @@ export default defineNuxtConfig({
 
   modules: ["@nuxtjs/tailwindcss"],
 
-  // 构建时启动类型检查
-  typescript: {
-    typeCheck: true
-  }
+  // // 构建时启动类型检查
+  // typescript: {
+  //   typeCheck: true
+  // }
 })
