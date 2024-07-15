@@ -1,75 +1,45 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 Seed
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 技术栈
 
-## Setup
+Nuxt3.12 + Vue3.4 + tailwindcss3.4 + pnpm7.13 + node18
 
-Make sure to install the dependencies:
+## 安装
 
 ```bash
-# npm
-npm install
-
 # pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## 本地启动
 
-Start the development server on `http://localhost:3000`:
+本地启动地址： `http://localhost:3000`
 
 ```bash
 # npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+## 打包发布
 
 ```bash
 # npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+打包后启动服务
 
 ```bash
 # npm
 npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 相关文档
+
+[nuxt3](https://nuxt.com.cn/docs/getting-started/installation)
+
+[vue3](https://cn.vuejs.org/guide/introduction.html)
+
+[tailwindcss](https://tailwind.nodejs.cn/docs/using-with-preprocessors)
+
+[nuxt-tailwind](https://tailwindcss.nuxtjs.org/getting-started/installation)

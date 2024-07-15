@@ -16,5 +16,12 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+
+  modules: ["@nuxtjs/tailwindcss"],
+
+  // 构建时启动类型检查
+  typescript: {
+    typeCheck: true
   }
 })
